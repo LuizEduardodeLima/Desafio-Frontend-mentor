@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: normal;
+}
+
+.topo{
+	background-image: url('../images/desktop/laranja.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.p-50{
+	width: 50%;
+}
+
+.p-100{
+	width: 100%;
+}
+
+.p-33{
+	width: 33.3%;
+	text-align: center;
+}
+.p-100 > p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	padding-bottom: 300px;
+}
+
+.p-50 > h1{
+	margin-left: 50px;
+	display: inline;
+}
+
+.p-25{
+	width: 25%;
+}
+
+.lista-2{
+	display: none;
+}
+
+@media only screen and (max-width: 950px) {
+	.p-50{
+	  	width: 100%;
+	}
+
+	.p-33{
+	 	width: 100%;
+	}
+
+	.p-25{
+	 	width: 50%;
+	}
+	.lista{
+		display: none;
+	}
+
+	.lista-2{
+		display: inline;
+	}
+
+	.p-100 > p{
+		margin-top: 210px;
+	}
+	
+}
+
+@media only screen and (min-width: 930px) {
+	.aparecer > li{
+		display: none;
+	}
+}
+
+
+.lista > li{
+	display: inline;
+	margin-left: 50px;
+}
+
+.lista-2 > li{
+	display: inline;
+	margin-left: 50px;
+}
+
+.aparecer{
+	width: 380px;
+}
+
+.aparecer > li{
+	border: solid 1px black;
+	list-style: none;
+	padding: 10px;
+	background-color: white;
+	color: hsl(167, 40%, 24%);
+}
+
+.aparecer > li:hover{
+	color: white;
+	background-color: hsl(167, 40%, 24%);
+}
+
+.p50 > ul{
+	display: inline;
+}
+
+.lista{
+	position: absolute;
+	right: 50px;
+	margin-top: 28px;
+	font-size: 18px;
+}
+
+.aparecer{
+	position: absolute;
+	right: 50px;
+	margin-top: 28px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.lista-2 > li{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+	font-size: 18px;
+}
+
+.botao{
+	display: inline;
+	background-color: white;
+	padding: 12px;
+	color: black;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ovo{
+	height: 400px;
+	background-image: url('../images/desktop/ovo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.texto{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.texto > p{
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Gluten', cursive;
+	font-size: 18px;
+	color:  hsl(232, 10%, 55%);
+}
+
+.texto > .link > a{
+	color: black;
+	font-weight: bold;
+	font-family: 'Luckiest Guy', cursive;
+	text-decoration: none;
+	border-bottom: 2px solid yellow;
+}
+
+.texto > .link-2 > a{
+	color: black;
+	font-weight: bold;
+	font-family: 'Luckiest Guy', cursive;
+	text-decoration: none;
+	border-bottom: 2px solid pink;
+}
+
+.copo{
+	height: 400px;
+	background-image: url('../images/desktop/copo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cereja{
+	height: 400px;
+	background-image: url('../images/desktop/cereja.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 90px;	
+}
+
+.mexerica{
+	height: 400px;
+	background-image: url('../images/desktop/mexerica.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 90px;	
+}
+
+.p-100 > h3{
+	text-align: center;
+	margin-top: 50px;
+	color: hsl(167, 40%, 24%);
+}
+
+.cereja > h3{
+	margin-top: 295px;
+	text-align: center;
+	color: hsl(167, 40%, 24%);
+}
+
+.cereja > p{
+	text-align: center;
+	color: hsl(167, 40%, 24%);
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.mexerica > h3{
+	margin-top: 295px;
+	text-align: center;
+	color: hsl(212, 27%, 19%);
+}
+
+.mexerica > p{
+	text-align: center;
+	color: hsl(212, 27%, 19%);
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.clientes > h3{
+	color: hsl(232, 10%, 55%);
+}
+
+.foto-1{
+	margin-top: 50px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url('../images/emily.jpg');
+	background-size: cover;
+	margin-left: 41%;
+}
+
+.foto-2{
+	margin-top: 50px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url('../images/thomas.jpg');
+	background-size: cover;
+	margin-left: 41%;
+}
+
+.foto-3{
+	margin-top: 50px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url('../images/jennie.jpg');
+	background-size: cover;
+	margin-left: 41%;
+}
+.p-33 .texto{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Gluten', cursive;
+}
+
+.p-33 .nome{
+	padding-top: 30px;
+}
+
+.p-33 .cargo{
+	font-family: 'Gluten', cursive;
+	margin-bottom: 100px;
+}
+
+.leite{
+	height: 400px;
+	background-image: url('../images/desktop/leite.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ovo-frito{
+	height: 400px;
+	background-image: url('../images/desktop/ovo-frito.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.casquinha{
+	height: 400px;
+	background-image: url('../images/desktop/casquinha.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.acucar{
+	height: 400px;
+	background-image: url('../images/desktop/acucar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.final h2{
+	margin-top: 50px;
+}
+
+.final{
+	text-align: center;
+	background-color:  hsl(168, 34%, 41%);
+	color: hsl(167, 40%, 24%);
+	padding-bottom: 50px;
+}
+
+.final li{
+	list-style: none;
+	display: inline;
+}
+
+.one > li{
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.final > ul{
+	padding-top: 40px;
+}
+
+.icones > li{
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	color: darkred;
+	width: 100%;
+	font-family: 'Gluten', cursive;
+	font-size: 20px;
+	color: black;
+}
+

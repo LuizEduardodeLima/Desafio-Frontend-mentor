@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- icone do site -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/orange.ico">
+  
+  <title>Sunnyside | Criado por LuizEduLima</title>
+
+  <!-- Arquivo externo css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Fonts awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="box topo">
+        <div class="p-50">
+          <h1>sunnyside</h1>
+        </div>
+        <div class="p-50">
+          <ul class="lista-2">
+            <li>
+              <i class="fas fa-align-justify fa-2x menu"></i>
+            </li>
+          </ul>
+          
+          <ul class="aparecer">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>CONTACT</li>
+          </ul>
+
+          <ul class="lista">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>
+              <div class="botao">CONTACT</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-100">
+          <p>WE ARE CREATIVES</p>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="p-50 texto">
+        <h2>Transform your brand</h2>
+        <p>We are full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <p class="link"><a href="">LEARN MORE</a></p>
+      </div>
+      <div class="p-50 ovo"></div>
+    </div>
+
+    <div class="box">
+      <div class="p-50 copo"></div>
+      <div class="p-50 texto">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywrites, we´ll build and extend your brand in digital places.</p>
+        <p class="link-2"><a href="">LEARN MORE</a></p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="p-50 cereja">
+        <h3>Graphic Design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscrores your brand message and captures potential clients attention.</p>
+      </div>
+      <div class="p-50 mexerica">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="p-100 clientes"><h3>C L I E N T&nbsp;&nbsp;&nbsp;&nbsp;T E S T I M O N I A L S</h3></div>
+
+      <div class="p-33">
+        <div class="foto-1"></div>
+        <p class="texto">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+
+        <p class="nome"><b>Emily R.</b></p>
+        <p class="cargo">Marketing Director</p>
+      </div>
+
+      <div class="p-33">
+        <div class="foto-2"></div>
+        <p class="texto">Sunnyside´s enthusiasm coupled with their keen interest in our brand´s success made it a satisfying and enjoyable experience.</p>
+
+        <p class="nome"><b>Thomas S.</b></p>
+        <p class="cargo">Chef Operating Officer</p>
+      </div>
+
+      <div class="p-33">
+        <div class="foto-3"></div>
+        <p class="texto">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+
+        <p class="nome"><b>Jennie F.</b></p>
+        <p class="cargo">Business Owner</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="p-25 leite"></div>
+      <div class="p-25 ovo-frito"></div>
+      <div class="p-25 casquinha"></div>
+      <div class="p-25 acucar"></div>
+    </div>
+
+    <div class="box">
+      <div class="p-100 final">
+        <h2>sunnyside</h2>
+
+        <ul class="one">
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+        </ul>
+
+        <ul class="icones">
+          <li><img src="images/facebook.svg"></li>
+          <li><img src="images/instagram.svg"></li>
+          <li><img src="images/twitter.svg"></li>
+          <li><img src="images/pinterest.svg"></li>
+        </ul>
+      </div>
+
+      <footer>
+        <marquee>&copy;&nbsp;&nbsp;Criado por Luiz Eduardo de Lima - <i class="fab fa-github-alt"></i>&nbsp;&nbsp;Github: <a href="https://github.com/LuizEduardodeLima" target="_blank">acess meu github aqui...</a><marquee>
+      </footer>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      
+      let aparecer = $('.aparecer');
+      let controle = 0
+      aparecer.css('display', 'none');
+
+      let menu = $('.menu').click(function(){
+        if (controle == 0) {
+          aparecer.css('display', 'block');
+          controle += 1
+        }else{
+          aparecer.css('display', 'none');
+          controle -= 1
+        }
+      })
+    </script>
+</body>
+</html>
